@@ -1,5 +1,5 @@
 import React from "react";
-import "../assets/css/components/TodoBtns.css";
+import "../assets/css/components/todoBtns.css";
 
 function TodoBtns({ todos, isLogin, bulkConfirmItem, bulkRemoveItem }) {
   return (
