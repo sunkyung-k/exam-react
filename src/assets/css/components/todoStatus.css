@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+.status-box dl {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 15px;
+  color: #333;
+  background-color: #ffe8d9;
+  border-radius: 12px;
+  padding: 20px 0;
+  margin-top: 20px;
+}
+
+.status-box dt:after {
+  content: ":";
+}
+
+.status-box dd:after {
+  content: "|";
+  padding-left: 10px;
+}
+
+.status-box dd:last-of-type:after {
+  display: none;
+}

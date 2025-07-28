@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+.list-box {
+  margin-top: 20px;
+}
+
+.list-box ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.list-box li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  gap: 10px;
+  border: 1px solid #e7e7e7;
+  border-radius: 8px;
+}
+
+.list-box li input[type="checkbox"] {
+  transform: scale(1.1);
+  accent-color: #ff7043;
+  cursor: pointer;
+}
+
+.list-box li .list-txt {
+  width: calc(100% - 200px);
+}
+
+.list-box li .list-btn {
+  display: flex;
+  gap: 10px;
+}
+
+.item-confirm {
+  background-color: #f4f4f4;
+}
+
+.item-confirm .list-txt {
+  color: #bbb;
+  text-decoration: line-through;
+}

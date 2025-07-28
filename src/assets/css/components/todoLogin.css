@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+.login-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.login-box strong {
+  font-size: 20px;
+}
+
+.login-box .inner {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.login-box select {
+  width: 150px;
+  height: 31px;
+  cursor: pointer;
+}
+
+.login-box select:disabled {
+  cursor: not-allowed;
+}

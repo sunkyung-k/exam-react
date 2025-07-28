@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+.input-box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.input-box input {
+  height: 31px;
+  line-height: 31px;
+  font-size: 14px;
+  width: calc(100% - 200px);
+}
+
+.input-box input::placeholder {
+  color: #bbb;
+}
